@@ -8,13 +8,31 @@ For details, see
 
 ### How to use
 
+
+
+Reference: https://scriptedtea.com/tech/how-to-deploy-jekyll-to-github/
+
+
+
 Step 1: run the following command to build the whole website
 
 > jekyll build
 
-Step 2: run the following command to double check the effect
+Step 2: run the following command to double check the effect (alternative)
 
 > jekyll serve
+
+Step 3. change to directory "_site" and update the "gh-pages" branch
+
+> cd _site
+>
+> git add .
+>
+> git commit -m "Commit Message Here"
+>
+> git push origin gh-pages
+
+
 
 ## Features
 
