@@ -28,12 +28,18 @@ Under the `main` branch, update the contents and generate the `_site` directory,
 > jekyll build
 >
 > jekyll serve # (altenative)
+>
+> git add .
+>
+> git commit -m "Information about this commit"
+>
+> git push origin
 
 Push the content within `_site`  to the `gh-pages` branch
 
 > git subtree push --prefix _site origin gh-pages
 
-
+Note: the above command will not change the current active branch.
 
 ## Features
 
