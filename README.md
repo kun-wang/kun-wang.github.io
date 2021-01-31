@@ -15,15 +15,19 @@ References:
 1. https://scriptedtea.com/tech/how-to-deploy-jekyll-to-github/
 2. https://gist.github.com/cobyism/4730490
 
+Check if current active branch is `main`:
+
+> git branch
+
+If not, switch to the `main` branch:
+
+> git checkout main
+
 Under the `main` branch, update the contents and generate the `_site` directory, using the following steps:
 
-Step 1: run the following command to build the whole website
-
 > jekyll build
-
-Step 2: run the following command to double check the effect (alternative)
-
-> jekyll serve
+>
+> jekyll serve # (altenative)
 
 Push the content within `_site`  to the `gh-pages` branch
 

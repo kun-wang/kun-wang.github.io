@@ -10,27 +10,28 @@ For details, see
 
 
 
-Reference: https://scriptedtea.com/tech/how-to-deploy-jekyll-to-github/
+References:
 
+1. https://scriptedtea.com/tech/how-to-deploy-jekyll-to-github/
+2. https://gist.github.com/cobyism/4730490
 
+Check if current active branch is `main`:
 
-Step 1: run the following command to build the whole website
+> git branch
+
+If not, switch to the `main` branch:
+
+> git checkout main
+
+Under the `main` branch, update the contents and generate the `_site` directory, using the following steps:
 
 > jekyll build
-
-Step 2: run the following command to double check the effect (alternative)
-
-> jekyll serve
-
-Step 3. change to directory "_site" and update the "gh-pages" branch
-
-> cd _site
 >
-> git add .
->
-> git commit -m "Commit Message Here"
->
-> git push origin gh-pages
+> jekyll serve # (altenative)
+
+Push the content within `_site`  to the `gh-pages` branch
+
+> git subtree push --prefix _site origin gh-pages
 
 
 
