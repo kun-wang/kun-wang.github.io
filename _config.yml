@@ -1,0 +1,148 @@
+title: Kun Wang
+
+url: ###
+
+# Short description of your site
+description: Promised Land on Quantum Information Theory
+
+encoding: utf-8
+exclude: [Gemfile, Gemfile.lock, Rakefile]
+
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+# Overriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
+safe: true
+lsi: false
+# markdown: redcarpet
+# redcarpet:
+#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough", "underline"]
+
+# -----------------------------------------------------------------------------
+# Open Graph
+# -----------------------------------------------------------------------------
+# Display links to the page with a preview object on social media.
+# To achieve this, change serve_og_meta to true and then provide the URL of the
+# preview image as the value of og_image.
+serve_og_meta: false # Include Open Graph meta tags in the HTML head
+og_image: # The site-wide (default for all links) Open Graph preview image
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: kun-wang # your GitHub user name
+twitter_username: QuantumMan2018 # your Twitter handle
+# linkedin_username: # your LinkedIn user name
+scholar_userid: 9pDyyUAAAAAJ # your Google Scholar ID
+orcid_id: 0000-0001-5289-4577 # your ORCID ID
+# medium_username: # your Medium username
+# quora_username: # your Quora username
+# publons_id: # your ID on Publons
+# research_gate_profile: # your profile on ResearchGate
+# blogger_url: # your blogger URL
+
+# Keybase
+include:
+  - .well-known
+
+# White-listed plugins
+plugins: 
+  - jekyll-sitemap
+  - jekyll/scholar
+  - jemoji
+  
+# Build settings
+markdown: kramdown
+kramdown:
+    input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+    extensions:
+    - autolink
+    - footnotes
+    - smart
+hard_wrap: false
+#  use_coderay: true
+syntax_highlighter: rouge
+highlighter: rouge ### available in github
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title.html
+  news:
+    output: true
+    permalink: /news/:title.html
+  pages:
+    output: true
+
+home_page_news_limit: 5
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+blog_name: QUARK
+blog_description: QUAntum Research Kalon
+
+# Comments
+disqus_shortname: quantumman # put your disqus shortname
+
+# Optional features
+show_social_icons:  true
+enable_anchorjs:    false
+enable_katex:       true
+
+
+# -----------------------------------------------------------------------------
+# Jekyll scholar  
+# Reference:  https://www.amirasiaee.com/dailyreport/jekyll-scholar/
+#             https://bl.ocks.org/Teino1978-Corp/325442fda3e3776f49e0
+#             https://www.mghassany.com/blog/From-Wordpress-to-Jekyll/
+# -----------------------------------------------------------------------------
+scholar:
+  last_name: Wang
+  first_name: Kun
+
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+  repository: /publications
+
+  source: ./_data/
+  bibliography: kun-wang-publications.bib
+  # bibliography_template: bibstyle # set the bibliography style in the web
+  bibliography_template: {{reference}}
+
+  replace_strings: true
+  join_strings: true
+
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.9.0"
+anchorjs_version: "3.2.2"

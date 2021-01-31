@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  
+<!-- Header goes here -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="aexITLS38FdIRzwj25OVWxm87rpa9l-UV0URTyC9cTs" />
+  <!-- set the blog page title to the blog title  -->
+  <title>
+    Setup up Github Pages with Jekyll
+    
+  </title>
+  <link rel="stylesheet" href="../css/site.css">
+  <link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  
+  <link rel="alternate" type="application/atom+xml" title="RSS Feed for Kun Wang's blog" href="/feed.xml" />
+
+</head>
+
+
+<body>
+  
+  <!-- Navigator goes here -->
+  <!-- define the top-most banner, make the site more elegant -->
+<!-- <div class="top-bar"></div> -->
+
+<!-- set the navigator -->
+<div class="header-container">
+  <header class="inner">
+    <nav>
+      <a class="" href="/">Home</a>
+      <a class="" href="/research/">Research</a>
+      <a class="" href="/publications/">Publications</a>
+      <a class="" href="/news/">News</a>
+      <a class="" href="/blog/">Blog</a>
+    </nav>
+
+    <social style="float: right;">
+        <a href="https://scholar.google.com/citations?user=9pDyyUAAAAAJ&hl=en" title="My Google Scholar">
+          <i class="icon-googlescholar"></i>
+        </a>
+        <a href="https://github.com/kun-wang" title="My GitHub">
+          <i class="icon-github"></i>
+        </a>
+        <a href="https://twitter.com/intent/follow?screen_name=QuantumMan2018" title="My Twitter">
+          <i class="icon-twitter"></i>
+        </a>
+        <a href="/feed.xml" title="Subscribe to My Blog">
+          <i class="icon-rss"></i>
+        </a>
+    </social>
+    <!-- <div class="pull-right right logo">
+      <a href="http://kunwang.info/"><img class="avatar" src="/images/avatar.jpg" alt="avatar"/></a>
+    </div> -->
+    <div class="clear"></div>
+  </header>
+  <div class="clear"></div>
+</div>
+
+  
+  <!-- Content goes here -->
+  <link rel="stylesheet" href="../css/blog.css">
+
+
+
+<div id="container">
+  <article>
+  <div class="inner">
+  <div class = "post-header">
+    <h1>
+      Setup up Github Pages with Jekyll
+    </h1>
+    <ul class="meta">
+      <i class="fa fa-calendar"></i>
+        May 10, 2020
+      <i class="space"></i>
+      <i class="fa fa-archive"></i>
+      <a class="tag" href="http://localhost:4000/blog/categories.html#"></a>
+      <i class="space"></i>
+      <i class="fa fa-tags"></i>
+      
+          <a class="tag" href="http://localhost:4000/tag/#jekyll,github">jekyll,github</a>
+          <i class="space"></i>
+      
+          <a class="tag" href="http://localhost:4000/tag/#pages">pages</a>
+          <i class="space"></i>
+      
+      <i class="space"></i> Words:3058
+    </ul>
+  </div>
+  </div>
+
+    <div class="post">
+          <div id="content">
+            <div class ="sidebox">
+                <div class ="sidebar">
+                <div class="toc"></div>
+                </div>
+            </div>
+        <p>References: <a href="http://zhepeiw.com/2018/12/23/blog1.html">Building the Site with TeXt and Jekyll Scholar</a></p>
+
+<h2 id="features">Features</h2>
+
+<h3 id="news-center">News Center</h3>
+
+<h3 id="bibliography">Bibliography</h3>
+
+<p>Unfortunately, <strong>Yuan Yong</strong>’s template does not come with automatic bibliography support. To enable such support, we incorporate <a href="https://github.com/inukshuk/jekyll-scholar">Jekyll Scholar</a> into the site. It is a Jekyll extension that converts bibtex to bibliography formatted according to the settings.</p>
+
+<h2 id="deployment">Deployment</h2>
+
+<p>An annoying fact is that Github Pages does not support Jekyll Scholar under the default workflow, but it is possible to host the site on Github Pages as introduced in <a href="http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/">this example</a>. By default, Github Pages is built from the <code class="highlighter-rouge">master</code> branch. The trick is that we push the source files to a separate branch (say <code class="highlighter-rouge">source</code>) to remote and keep only the generated content of the <code class="highlighter-rouge">_site/</code> directories to the <code class="highlighter-rouge">master</code> branch. How can we do this?</p>
+
+<h4 id="setup-the-source-branch">Setup the source branch</h4>
+
+<p>We assume now there is only a master branch there. On the first time to setup the deployment, we should first create a <a href="https://github.com/zhepeiw/zhepeiw.github.io/blob/source/Rakefile">Rakefile</a> at the root of the repository. Then, we create and switch to a separate branch, (i.e., <code class="highlighter-rouge">source</code>) with</p>
+
+<pre><code class="language-git">git checkout -b source
+</code></pre>
+
+<p>Now we are on the source branch. Do remember to run the command</p>
+
+<pre><code class="language-git">bundle exec jekyll serve
+</code></pre>
+
+<p>so that the directory <code class="highlighter-rouge">_site/</code> is in its latest version.</p>
+
+<h4 id="automatic-deployment">Automatic Deployment</h4>
+
+<p>We run</p>
+
+<pre><code class="language-git">rake commit
+</code></pre>
+
+<p>to commit the changes to the source branch locally and</p>
+
+<pre><code class="language-git">rake deploy
+</code></pre>
+
+<p>to push the <code class="highlighter-rouge">_site</code> directory to remote <code class="highlighter-rouge">master</code> and the source to remote <code class="highlighter-rouge">source</code>. We can also combine the two steps into one by running</p>
+
+<pre><code class="language-git">rake commit_deploy
+</code></pre>
+
+<h4 id="remarks">Remarks</h4>
+
+<p>It is possible that after the <code class="highlighter-rouge">rake deploy</code> command, there will be the following warning</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Pushing</span> <span class="nx">to</span> <span class="nx">git</span><span class="p">@</span><span class="nd">github</span><span class="p">.</span><span class="nx">com</span><span class="p">:</span><span class="nx">xxx</span><span class="p">.</span><span class="nx">git</span>
+<span class="nx">To</span> <span class="nx">git</span><span class="p">@</span><span class="nd">github</span><span class="p">.</span><span class="nx">com</span><span class="p">:</span><span class="nx">xxx</span><span class="p">.</span><span class="nx">git</span>
+ <span class="o">!</span> <span class="p">[</span><span class="nx">rejected</span><span class="p">]</span>        <span class="nx">master</span> <span class="o">-&gt;</span> <span class="nx">master</span> <span class="p">(</span><span class="nx">non</span><span class="o">-</span><span class="nx">fast</span><span class="o">-</span><span class="nx">forward</span><span class="p">)</span>
+<span class="nx">error</span><span class="p">:</span> <span class="nx">failed</span> <span class="nx">to</span> <span class="nx">push</span> <span class="nx">some</span> <span class="nx">refs</span> <span class="nx">to</span> <span class="dl">'</span><span class="s1">git@github.com:xxx.git</span><span class="dl">'</span>
+<span class="nx">hint</span><span class="p">:</span> <span class="nx">Updates</span> <span class="nx">were</span> <span class="nx">rejected</span> <span class="nx">because</span> <span class="nx">the</span> <span class="nx">tip</span> <span class="k">of</span> <span class="nx">your</span> <span class="nx">current</span> <span class="nx">branch</span> <span class="nx">is</span> <span class="nx">behind</span>
+<span class="nx">hint</span><span class="p">:</span> <span class="nx">its</span> <span class="nx">remote</span> <span class="nx">counterpart</span><span class="p">.</span> <span class="nx">Merge</span> <span class="nx">the</span> <span class="nx">remote</span> <span class="nx">changes</span> <span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">g</span><span class="p">.</span> <span class="dl">'</span><span class="s1">git pull</span><span class="dl">'</span><span class="p">)</span>
+<span class="nx">hint</span><span class="p">:</span> <span class="nx">before</span> <span class="nx">pushing</span> <span class="nx">again</span><span class="p">.</span>
+<span class="nx">hint</span><span class="p">:</span> <span class="nx">See</span> <span class="nx">the</span> <span class="dl">'</span><span class="s1">Note about fast-forwards</span><span class="dl">'</span> <span class="k">in</span> <span class="dl">'</span><span class="s1">git push --help</span><span class="dl">'</span> <span class="k">for</span> <span class="nx">details</span><span class="p">.</span>
+</code></pre></div></div>
+
+<p>This is possibly because you change something online, resulting conflict. If you do not wish to merge the remote branch into your local branch, and want to do a force push, use the push command with <code class="highlighter-rouge">-f</code></p>
+
+<pre><code class="language-git">git push -f origin &lt;branch&gt;
+</code></pre>
+
+<p>where <code class="highlighter-rouge">branch</code> is the remote branch I want to merge.</p>
+
+      </div>
+    </div>
+
+
+  </article>
+
+  <!--翻页功能-->
+  <section class="inner">
+  <ul class="pager">
+      
+      <li class="previous">
+        <a href="/blog/credits.html">←Credits</a>
+      </li>
+      
+      
+  </ul>
+  </section>
+</div>
+
+
+
+
+  <!-- add some free space -->
+  <div class="separator"></div> 
+
+  <!-- Footer goes here -->
+</body>
+</html>
