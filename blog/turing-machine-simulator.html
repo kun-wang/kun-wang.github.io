@@ -87,7 +87,7 @@
           <a class="tag" href="/tag/#theory">theory</a>
           <i class="space"></i>
       
-      <i class="space"></i> Words:2489
+      <i class="space"></i> Words:2612
     </ul>
   </div>
   </div>
@@ -112,10 +112,10 @@ The syntax of Turing machine is totally from the book of
 
 <h2 id="description">Description</h2>
 
-<p><code class="highlighter-rouge">bin</code><br />
+<p><code class="language-plaintext highlighter-rouge">bin</code><br />
 Contains the compiled .class files. The “images” sub-directory is very important as it stores the required images for the simulator. In the next update, I will try to move it out of the “bin” directory.</p>
 
-<p><code class="highlighter-rouge">files</code><br />
+<p><code class="language-plaintext highlighter-rouge">files</code><br />
 Contains the program description for specific operations. Examples include:</p>
 
 <ul>
@@ -125,15 +125,15 @@ Contains the program description for specific operations. Examples include:</p>
 
 <p>In these two files, I gave a detail description of the requirements for writing a program that can be accepted by the simulator.</p>
 
-<p><code class="highlighter-rouge">src</code><br />
+<p><code class="language-plaintext highlighter-rouge">src</code><br />
 Source files of the simulator.</p>
 
 <p><em>All of the above three directories are required for running the simulator.</em></p>
 
-<p><code class="highlighter-rouge">introduction.pptx</code><br />
-Actually, the Turing machine simuator is a project for the third assignment of the course <strong>Software Architecture</strong>. <code class="highlighter-rouge">introduction.pptx</code> is my presentation on the course, which introduces basic ideas of the project, and the design patterns that have been applied.</p>
+<p><code class="language-plaintext highlighter-rouge">introduction.pptx</code><br />
+Actually, the Turing machine simuator is a project for the third assignment of the course <strong>Software Architecture</strong>. <code class="language-plaintext highlighter-rouge">introduction.pptx</code> is my presentation on the course, which introduces basic ideas of the project, and the design patterns that have been applied.</p>
 
-<p><code class="highlighter-rouge">TMSimulator.7z</code><br />
+<p><code class="language-plaintext highlighter-rouge">TMSimulator.7z</code><br />
 The packed runnable jar, with necessary config files.</p>
 
 <h2 id="how-to-use">How to Use</h2>
@@ -141,9 +141,9 @@ The packed runnable jar, with necessary config files.</p>
 <p>There are two different ways to setup the simulator.</p>
 <h3 id="method-1-running-the-jar-file">Method 1: Running the jar file</h3>
 <p><em>Step1.</em> Download the repository.<br />
-<em>Step2.</em> Unpack <code class="highlighter-rouge">TMSimulator.7z</code>.<br />
-<em>Step3.</em> Click the <code class="highlighter-rouge">run.bat</code> batch file.<br />
-<strong>Warnning!</strong> The <code class="highlighter-rouge">files</code> and <code class="highlighter-rouge">TMSimulator.jar</code> must be in the same directory with <code class="highlighter-rouge">run.bat</code>.</p>
+<em>Step2.</em> Unpack <code class="language-plaintext highlighter-rouge">TMSimulator.7z</code>.<br />
+<em>Step3.</em> Click the <code class="language-plaintext highlighter-rouge">run.bat</code> batch file.<br />
+<strong>Warnning!</strong> The <code class="language-plaintext highlighter-rouge">files</code> and <code class="language-plaintext highlighter-rouge">TMSimulator.jar</code> must be in the same directory with <code class="language-plaintext highlighter-rouge">run.bat</code>.</p>
 
 <h3 id="method-2-importing-the-project-into-eclipse">Method 2: Importing the project into eclipse</h3>
 <p><em>Step1.</em> Download the repository.<br />
@@ -157,11 +157,11 @@ The packed runnable jar, with necessary config files.</p>
 </blockquote>
 
 <p><strong>Problem Description:</strong> When exporting the project as a runnable jar (TMSimulator.jar is exported in this way), images cannot be load, as the jar cannot find the images.<br />
-<strong>Current Solution:</strong> This problem happens because the exporting system hasn’t add the necessary files in <code class="highlighter-rouge">bin/images</code> into the jar file. There are two solutions:</p>
+<strong>Current Solution:</strong> This problem happens because the exporting system hasn’t add the necessary files in <code class="language-plaintext highlighter-rouge">bin/images</code> into the jar file. There are two solutions:</p>
 
 <ol>
   <li>Modify the code to add the files.</li>
-  <li>Add the <code class="highlighter-rouge">images</code> directory into the jar file manually.</li>
+  <li>Add the <code class="language-plaintext highlighter-rouge">images</code> directory into the jar file manually.</li>
 </ol>
 
 <p>Due to my laziness, I take the latter one. It deserves better solution.</p>

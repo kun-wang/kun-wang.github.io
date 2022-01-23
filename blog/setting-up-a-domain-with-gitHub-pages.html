@@ -93,7 +93,7 @@
           <a class="tag" href="/tag/#pages">pages</a>
           <i class="space"></i>
       
-      <i class="space"></i> Words:2582
+      <i class="space"></i> Words:3038
     </ul>
   </div>
   </div>
@@ -107,7 +107,7 @@
             </div>
         <h2 id="简介">简介</h2>
 
-<p>我在阿里云上注册了一个新域名：<a href="https://kunwang.info">kunwang.info</a>，我已经在GitHub Pages上建立了自己的博客：<a href="http://kun-wang.github.io">kun-wang.github.io</a>。现在我希望将<code class="highlighter-rouge">kunwang.info</code>映射到<code class="highlighter-rouge">kun-wang.github.io</code>。主要参考资料：</p>
+<p>我在阿里云上注册了一个新域名：<a href="https://kunwang.info">kunwang.info</a>，我已经在GitHub Pages上建立了自己的博客：<a href="http://kun-wang.github.io">kun-wang.github.io</a>。现在我希望将<code class="language-plaintext highlighter-rouge">kunwang.info</code>映射到<code class="language-plaintext highlighter-rouge">kun-wang.github.io</code>。主要参考资料：</p>
 
 <ol>
   <li><a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">Setting up a custom domain with GitHub Pages</a></li>
@@ -117,19 +117,19 @@
 
 <h2 id="第一步创建cname文件夹">第一步：创建CNAME文件夹</h2>
 
-<p>在你的个人博客仓库的根目录中新建文件<code class="highlighter-rouge">CNAME</code>（注意没有后缀），在该文件增加一行文字，告诉Github Pages服务器你想指定的域名。该域名不能包含前缀信息，即不能添加<code class="highlighter-rouge">http:\\</code>前缀。</p>
+<p>在你的个人博客仓库的根目录中新建文件<code class="language-plaintext highlighter-rouge">CNAME</code>（注意没有后缀），在该文件增加一行文字，告诉Github Pages服务器你想指定的域名。该域名不能包含前缀信息，即不能添加<code class="language-plaintext highlighter-rouge">http:\\</code>前缀。</p>
 
 <blockquote>
-  <p>!重要补充！CNAME文件名一定要大写，否则Github Pages服务器无法识别和解析。我就出现了这样的问题。我的CNAME绑定域名是正确的，通过<code class="highlighter-rouge">ping kunwang.info</code>和<code class="highlighter-rouge">ping kun-wang.github.io</code>两条指令，我发现了他们都指向同一个IP地址（即我的博客IP地址），可是我在使用浏览器访问的时候，会出现<code class="highlighter-rouge">Site not Found</code>提示，这个时候我就只能合理的怀疑Github Pages服务器根本就没有把<code class="highlighter-rouge">kunwang.info</code>和<code class="highlighter-rouge">kun-wang.github.io</code>绑定起来，即我的CNAME文件设置错误。Google之后发现CNAME文件名的大小写会产生影响（<a href="https://help.github.com/articles/my-custom-domain-isn-t-working/">My custom domain isn’t working</a>），万恶的Windows系统不区分文件名大小写，所以即使你在本地更改了CNAME大小写然后push到github，还是没有用。。。我就只好到github上去修改成大写了。。。坑。。。</p>
+  <p>!重要补充！CNAME文件名一定要大写，否则Github Pages服务器无法识别和解析。我就出现了这样的问题。我的CNAME绑定域名是正确的，通过<code class="language-plaintext highlighter-rouge">ping kunwang.info</code>和<code class="language-plaintext highlighter-rouge">ping kun-wang.github.io</code>两条指令，我发现了他们都指向同一个IP地址（即我的博客IP地址），可是我在使用浏览器访问的时候，会出现<code class="language-plaintext highlighter-rouge">Site not Found</code>提示，这个时候我就只能合理的怀疑Github Pages服务器根本就没有把<code class="language-plaintext highlighter-rouge">kunwang.info</code>和<code class="language-plaintext highlighter-rouge">kun-wang.github.io</code>绑定起来，即我的CNAME文件设置错误。Google之后发现CNAME文件名的大小写会产生影响（<a href="https://help.github.com/articles/my-custom-domain-isn-t-working/">My custom domain isn’t working</a>），万恶的Windows系统不区分文件名大小写，所以即使你在本地更改了CNAME大小写然后push到github，还是没有用。。。我就只好到github上去修改成大写了。。。坑。。。</p>
 </blockquote>
 
 <p>每个CNAME文件能且只能指定一个域名。更多关于增加CNAME文件的信息可见<a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">Adding a CNAME file to your repository</a>。</p>
 
-<p>第一步的目的是，Github读取你的CNAME之后，Github服务器会设置<code class="highlighter-rouge">kunwang.info</code>为你的主域名，然后将<code class="highlighter-rouge">kun-wang.github.io</code>重定向到<code class="highlighter-rouge">kunwang.info</code>。</p>
+<p>第一步的目的是，Github读取你的CNAME之后，Github服务器会设置<code class="language-plaintext highlighter-rouge">kunwang.info</code>为你的主域名，然后将<code class="language-plaintext highlighter-rouge">kun-wang.github.io</code>重定向到<code class="language-plaintext highlighter-rouge">kunwang.info</code>。</p>
 
 <h2 id="第二步cname绑定域名">第二步：CNAME绑定域名</h2>
 
-<p>登录<a href="http://dc.aliyun.com/login/loginx">阿里云单域名控制台</a>，在<code class="highlighter-rouge">域名解析</code>中添加如图所示的解析</p>
+<p>登录<a href="http://dc.aliyun.com/login/loginx">阿里云单域名控制台</a>，在<code class="language-plaintext highlighter-rouge">域名解析</code>中添加如图所示的解析</p>
 
 <p><img src="/images/posts/post-setting-up-a-domain-with-github-pages-1.png" alt="域名解析" /></p>
 
@@ -138,21 +138,21 @@
 <p>在域名解析中，A记录就是直接指定一个IP，CNAME就是重命名，指向另一个域名。</p>
 
 <ol>
-  <li>在阿里云控制台，设置主机记录<code class="highlighter-rouge">www</code>，记录类型为A，记录值是IP<code class="highlighter-rouge">192.30.252.153</code>。其中<code class="highlighter-rouge">192.30.252.153</code>是Github Pages服务器指定的IP地址，访问该IP地址即表示访问Github Pages。</li>
-  <li>在阿里云控制台，设置主机记录<code class="highlighter-rouge">www</code>，记录类型为A，记录值是IP<code class="highlighter-rouge">192.30.252.154</code>。同上。</li>
-  <li>在阿里云控制台，设置主机记录<code class="highlighter-rouge">@</code>，记录类型为CNAME，记录值是<code class="highlighter-rouge">kun-wang.github.io.</code>。表示将<code class="highlighter-rouge">http://kunwang.info</code>这个主域名映射<code class="highlighter-rouge">kun-wang.github.io</code>。在这里千万不要忘记记录值中<code class="highlighter-rouge">.io</code>后面还有一个点<code class="highlighter-rouge">.</code>！
+  <li>在阿里云控制台，设置主机记录<code class="language-plaintext highlighter-rouge">www</code>，记录类型为A，记录值是IP<code class="language-plaintext highlighter-rouge">192.30.252.153</code>。其中<code class="language-plaintext highlighter-rouge">192.30.252.153</code>是Github Pages服务器指定的IP地址，访问该IP地址即表示访问Github Pages。</li>
+  <li>在阿里云控制台，设置主机记录<code class="language-plaintext highlighter-rouge">www</code>，记录类型为A，记录值是IP<code class="language-plaintext highlighter-rouge">192.30.252.154</code>。同上。</li>
+  <li>在阿里云控制台，设置主机记录<code class="language-plaintext highlighter-rouge">@</code>，记录类型为CNAME，记录值是<code class="language-plaintext highlighter-rouge">kun-wang.github.io.</code>。表示将<code class="language-plaintext highlighter-rouge">http://kunwang.info</code>这个主域名映射<code class="language-plaintext highlighter-rouge">kun-wang.github.io</code>。在这里千万不要忘记记录值中<code class="language-plaintext highlighter-rouge">.io</code>后面还有一个点<code class="language-plaintext highlighter-rouge">.</code>！
     <ul>
-      <li>但是很多时候，我们只想将子域名绑定到博客地址。比如如果你想将<code class="highlighter-rouge">blog.maindomain.com</code>（即博客子域名地址，主域名地址是<code class="highlighter-rouge">www.maindomain.com</code>）映射到<code class="highlighter-rouge">kun-wang.github.io</code>，那么在主机记录中就应该填写<code class="highlighter-rouge">blog</code>，记录类型为CNAME，记录值是<code class="highlighter-rouge">kun-wang.github.io</code>。因为你的主域名已经默认为<code class="highlighter-rouge">maindomain.com</code>，所以主域名和主机记录合起来就是<code class="highlighter-rouge">blog.maindomain.com</code>。而且这个时候，你github项目的CNAME文件内容也应该相应的改为<code class="highlighter-rouge">blog.maindomain.com</code>，因为你是想将<code class="highlighter-rouge">kun-wang.github.io</code>和<code class="highlighter-rouge">blog.maindomain.com</code>绑定起来，而不是和<code class="highlighter-rouge">www.maindomain.com</code>绑定。</li>
-      <li>如果你想将<code class="highlighter-rouge">www.maindomain.com</code>（即主域名地址）映射到<code class="highlighter-rouge">kun-wang.github.io</code>，那么主机记录就是<code class="highlighter-rouge">www</code>,记录类型是A，记录值是具体的IP地址（在我们这个例子中是<code class="highlighter-rouge">192.30.252.153</code>、<code class="highlighter-rouge">192.30.252.154</code>）。因为你的主域名已经默认为<code class="highlighter-rouge">maindomain.com</code>，所以主域名和主机记录合起来就是<code class="highlighter-rouge">www.maindomain.com</code>。</li>
+      <li>但是很多时候，我们只想将子域名绑定到博客地址。比如如果你想将<code class="language-plaintext highlighter-rouge">blog.maindomain.com</code>（即博客子域名地址，主域名地址是<code class="language-plaintext highlighter-rouge">www.maindomain.com</code>）映射到<code class="language-plaintext highlighter-rouge">kun-wang.github.io</code>，那么在主机记录中就应该填写<code class="language-plaintext highlighter-rouge">blog</code>，记录类型为CNAME，记录值是<code class="language-plaintext highlighter-rouge">kun-wang.github.io</code>。因为你的主域名已经默认为<code class="language-plaintext highlighter-rouge">maindomain.com</code>，所以主域名和主机记录合起来就是<code class="language-plaintext highlighter-rouge">blog.maindomain.com</code>。而且这个时候，你github项目的CNAME文件内容也应该相应的改为<code class="language-plaintext highlighter-rouge">blog.maindomain.com</code>，因为你是想将<code class="language-plaintext highlighter-rouge">kun-wang.github.io</code>和<code class="language-plaintext highlighter-rouge">blog.maindomain.com</code>绑定起来，而不是和<code class="language-plaintext highlighter-rouge">www.maindomain.com</code>绑定。</li>
+      <li>如果你想将<code class="language-plaintext highlighter-rouge">www.maindomain.com</code>（即主域名地址）映射到<code class="language-plaintext highlighter-rouge">kun-wang.github.io</code>，那么主机记录就是<code class="language-plaintext highlighter-rouge">www</code>,记录类型是A，记录值是具体的IP地址（在我们这个例子中是<code class="language-plaintext highlighter-rouge">192.30.252.153</code>、<code class="language-plaintext highlighter-rouge">192.30.252.154</code>）。因为你的主域名已经默认为<code class="language-plaintext highlighter-rouge">maindomain.com</code>，所以主域名和主机记录合起来就是<code class="language-plaintext highlighter-rouge">www.maindomain.com</code>。</li>
     </ul>
   </li>
 </ol>
 
-<p>你可以将多个域名都映射到<code class="highlighter-rouge">xxxxx.github.io</code>之类的你自己的站点上，但是需要新建不同内容的CNAME文件。</p>
+<p>你可以将多个域名都映射到<code class="language-plaintext highlighter-rouge">xxxxx.github.io</code>之类的你自己的站点上，但是需要新建不同内容的CNAME文件。</p>
 
-<p>注意，<code class="highlighter-rouge">.me</code>已经是顶级域名（和<code class="highlighter-rouge">.com</code>、<code class="highlighter-rouge">.org</code>等域名是同一级的），所以需要使用A记录进行域名解析。</p>
+<p>注意，<code class="language-plaintext highlighter-rouge">.me</code>已经是顶级域名（和<code class="language-plaintext highlighter-rouge">.com</code>、<code class="language-plaintext highlighter-rouge">.org</code>等域名是同一级的），所以需要使用A记录进行域名解析。</p>
 
-<p>第二步的目的是，告诉所有DNS服务器，对于<code class="highlighter-rouge">kunwang.info</code>的访问都会被重定向到<code class="highlighter-rouge">kun-wang.github.io</code>。</p>
+<p>第二步的目的是，告诉所有DNS服务器，对于<code class="language-plaintext highlighter-rouge">kunwang.info</code>的访问都会被重定向到<code class="language-plaintext highlighter-rouge">kun-wang.github.io</code>。</p>
 
 <h2 id="第三步漫长的等待">第三步：漫长的等待</h2>
 

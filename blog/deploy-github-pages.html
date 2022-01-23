@@ -87,7 +87,7 @@
           <a class="tag" href="/tag/#pages">pages</a>
           <i class="space"></i>
       
-      <i class="space"></i> Words:3058
+      <i class="space"></i> Words:3172
     </ul>
   </div>
   </div>
@@ -111,11 +111,11 @@
 
 <h2 id="deployment">Deployment</h2>
 
-<p>An annoying fact is that Github Pages does not support Jekyll Scholar under the default workflow, but it is possible to host the site on Github Pages as introduced in <a href="http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/">this example</a>. By default, Github Pages is built from the <code class="highlighter-rouge">master</code> branch. The trick is that we push the source files to a separate branch (say <code class="highlighter-rouge">source</code>) to remote and keep only the generated content of the <code class="highlighter-rouge">_site/</code> directories to the <code class="highlighter-rouge">master</code> branch. How can we do this?</p>
+<p>An annoying fact is that Github Pages does not support Jekyll Scholar under the default workflow, but it is possible to host the site on Github Pages as introduced in <a href="http://davidensinger.com/2013/07/automating-jekyll-deployment-to-github-pages-with-rake/">this example</a>. By default, Github Pages is built from the <code class="language-plaintext highlighter-rouge">master</code> branch. The trick is that we push the source files to a separate branch (say <code class="language-plaintext highlighter-rouge">source</code>) to remote and keep only the generated content of the <code class="language-plaintext highlighter-rouge">_site/</code> directories to the <code class="language-plaintext highlighter-rouge">master</code> branch. How can we do this?</p>
 
 <h4 id="setup-the-source-branch">Setup the source branch</h4>
 
-<p>We assume now there is only a master branch there. On the first time to setup the deployment, we should first create a <a href="https://github.com/zhepeiw/zhepeiw.github.io/blob/source/Rakefile">Rakefile</a> at the root of the repository. Then, we create and switch to a separate branch, (i.e., <code class="highlighter-rouge">source</code>) with</p>
+<p>We assume now there is only a master branch there. On the first time to setup the deployment, we should first create a <a href="https://github.com/zhepeiw/zhepeiw.github.io/blob/source/Rakefile">Rakefile</a> at the root of the repository. Then, we create and switch to a separate branch, (i.e., <code class="language-plaintext highlighter-rouge">source</code>) with</p>
 
 <pre><code class="language-git">git checkout -b source
 </code></pre>
@@ -125,7 +125,7 @@
 <pre><code class="language-git">bundle exec jekyll serve
 </code></pre>
 
-<p>so that the directory <code class="highlighter-rouge">_site/</code> is in its latest version.</p>
+<p>so that the directory <code class="language-plaintext highlighter-rouge">_site/</code> is in its latest version.</p>
 
 <h4 id="automatic-deployment">Automatic Deployment</h4>
 
@@ -139,14 +139,14 @@
 <pre><code class="language-git">rake deploy
 </code></pre>
 
-<p>to push the <code class="highlighter-rouge">_site</code> directory to remote <code class="highlighter-rouge">master</code> and the source to remote <code class="highlighter-rouge">source</code>. We can also combine the two steps into one by running</p>
+<p>to push the <code class="language-plaintext highlighter-rouge">_site</code> directory to remote <code class="language-plaintext highlighter-rouge">master</code> and the source to remote <code class="language-plaintext highlighter-rouge">source</code>. We can also combine the two steps into one by running</p>
 
 <pre><code class="language-git">rake commit_deploy
 </code></pre>
 
 <h4 id="remarks">Remarks</h4>
 
-<p>It is possible that after the <code class="highlighter-rouge">rake deploy</code> command, there will be the following warning</p>
+<p>It is possible that after the <code class="language-plaintext highlighter-rouge">rake deploy</code> command, there will be the following warning</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Pushing</span> <span class="nx">to</span> <span class="nx">git</span><span class="p">@</span><span class="nd">github</span><span class="p">.</span><span class="nx">com</span><span class="p">:</span><span class="nx">xxx</span><span class="p">.</span><span class="nx">git</span>
 <span class="nx">To</span> <span class="nx">git</span><span class="p">@</span><span class="nd">github</span><span class="p">.</span><span class="nx">com</span><span class="p">:</span><span class="nx">xxx</span><span class="p">.</span><span class="nx">git</span>
@@ -158,12 +158,12 @@
 <span class="nx">hint</span><span class="p">:</span> <span class="nx">See</span> <span class="nx">the</span> <span class="dl">'</span><span class="s1">Note about fast-forwards</span><span class="dl">'</span> <span class="k">in</span> <span class="dl">'</span><span class="s1">git push --help</span><span class="dl">'</span> <span class="k">for</span> <span class="nx">details</span><span class="p">.</span>
 </code></pre></div></div>
 
-<p>This is possibly because you change something online, resulting conflict. If you do not wish to merge the remote branch into your local branch, and want to do a force push, use the push command with <code class="highlighter-rouge">-f</code></p>
+<p>This is possibly because you change something online, resulting conflict. If you do not wish to merge the remote branch into your local branch, and want to do a force push, use the push command with <code class="language-plaintext highlighter-rouge">-f</code></p>
 
 <pre><code class="language-git">git push -f origin &lt;branch&gt;
 </code></pre>
 
-<p>where <code class="highlighter-rouge">branch</code> is the remote branch I want to merge.</p>
+<p>where <code class="language-plaintext highlighter-rouge">branch</code> is the remote branch I want to merge.</p>
 
       </div>
     </div>
