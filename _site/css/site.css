@@ -254,7 +254,7 @@ blockquote {
   font-size: 100%;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 1200px) {
   .header-container .contact {
     display: none;
   }
@@ -279,7 +279,7 @@ header .logo a, header .logo a:hover {
 }
 
 .inner, pre code, .post > * {
-  max-width: 760px; /*680*/
+  max-width: 1000px; /*  这个值决定了整个页面的宽度！！！*/  
   margin-left: auto;
   margin-right: auto;
   text-align: left;
