@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>quantum | Quark</title><link>https://kunwang.info/tag/quantum/</link><atom:link href="https://kunwang.info/tag/quantum/index.xml" rel="self" type="application/rss+xml"/><description>quantum</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 05 Nov 2022 00:00:00 +0000</lastBuildDate><image><url>https://kunwang.info/media/icon_hua80fed0d19161674393c832b4a1bafa2_7228_512x512_fill_lanczos_center_3.png</url><title>quantum</title><link>https://kunwang.info/tag/quantum/</link></image><item><title>量子噪声处理实习生招聘</title><link>https://kunwang.info/post/2022-11-05-quantum-intern/</link><pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate><guid>https://kunwang.info/post/2022-11-05-quantum-intern/</guid><description>&lt;h2 id="研究所简介">研究所简介&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://quantum.baidu.com/" target="_blank" rel="noopener">百度量子计算研究所&lt;/a>成立于 2018 年 3 月。其使命是五年内建成世界一流量子人工智能研究所，并不断将量子技术整合融入百度核心业务中。研究所聚焦 QIAN 战略计划，打造量子软硬件一体化解决方案。QIAN 分别代表着百度在量子（Quantum）、基础设施（Infrastructure）、应用（Application）和网络生态（Network）等四个方面的全新战略布局。研究所所长为&lt;a href="https://baike.baidu.com/item/%E6%AE%B5%E6%B6%A6%E5%B0%A7" target="_blank" rel="noopener">段润尧&lt;/a>教授，负责百度量子计算战略的制定与实施。本科和博士均就读于清华大学计算机系，师从应明生教授。悉尼科技大学终身教授、澳大利亚研究理事会（ARC）Future Fellow。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2020年9月15日，在“百度世界2020”大会上段润尧发布&lt;a href="https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E9%87%8F%E5%AD%90%E5%B9%B3%E5%8F%B0" target="_blank" rel="noopener">百度量子平台&lt;/a>全景图。2021年7月10日，在“WAIC2021世界人工智能大会”上，百度量子平台全新升级，提供从应用到真机一站式云服务。百度量子平台扮演量子时代操作系统的角色，降低普通用户学习量子软硬件专业知识的成本，使非量子专业用户也能实现量子编程、量子机器学习等相关内容。百度量子平台努力为不同领域的用户赋能，力争实现“人人皆可量子”的美好愿景。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2021年12月28日，百度举办“Create·AI开发者大会”。在主论坛上，百度 CTO 王海峰正式发布百度量子平台2.0，这是国内首个提供从应用到量子处理器一站式服务的量子计算云平台。随后在前沿探索论坛上，段润尧详细介绍了百度量子平台2.0的各项领先技术，并围绕百度量子平台构建开放、可持续的百度量子生态，为量子计算领域的发展和繁荣作出贡献。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2022年8月25日，在&lt;a href="https://baike.baidu.com/item/%E9%87%8F%E5%AD%90%E5%BC%80%E5%8F%91%E8%80%85%E5%A4%A7%E4%BC%9A" target="_blank" rel="noopener">Quantum Create 2022·量子开发者大会&lt;/a>上，百度正式发布基于百度量子平台研发的产业级超导量子计算机“乾始”，及全球首个全平台量子软硬一体化解决方案“量羲”，并对外提供了包括手机端、电脑端、云开发等在内的全平台使用方式。只需下载“量易伏”APP，用户就可以体验量子计算，量子算力“触手可及”。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>百度在国家工业信息安全发展研究中心、工信部电子知识产权中心评比的量子计算全球高价值专利及创新驱动力排名中位列国内第一，国际第三。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="工作职责">工作职责&lt;/h2>
+&lt;p>您将和研究所的王琨研究员、工程师们一起推进量子噪声处理工具集 &lt;a href="https://quantum-hub.baidu.com/qep/tutorial-overvie" target="_blank" rel="noopener">QEP&lt;/a> 的研发工作。该工具集旨在从软件层面处理近期量子设备中广泛存在的量子噪声。实习可选择的方向包括但不限于：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>评估近期量子设备的性能&lt;/strong>并衡量其可扩展性（关键字：Randomized Benchmarking, Quantum Estimation, Quantum Verification）；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>刻画近期量子设备的量子噪声&lt;/strong>，精确标定量子态和量子门信息（关键字：Quantum Characterization, Quantum Tomography）；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>提升量子计算机的计算结果精度&lt;/strong>，降低甚至是消除量子门和量子测量噪声，扩展量子设备的计算能力（关键字：Quantum Error Mitigation, Quantum Error Correction）。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>诚挚欢迎热爱量子计算、学习动手能力强的有志之士申请。通过本实习项目中您将收获：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>量子计算领域知识与大厂实习经验，接触最前沿量子计算研究和项目；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>得到科研、工程等方面的指导，建立良好的研发习惯，积累多学科专业知识；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>个人能力得到挖掘和提升，个人价值得到发挥和认可。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="职位要求">职位要求&lt;/h2>
+&lt;ul>
+&lt;li>计算机/数学/物理或相关专业的研究生或者本科生&lt;/li>
+&lt;li>有面向对象编程知识基础，有项目开发经验的申请人优先&lt;/li>
+&lt;li>有线性代数和概率论基础，有量子计算基础的申请人优先。建议学习 Nielsen and Chuang 的《Quantum Computation and Quantum Information》，重点关注第二章、第八章和第九章。&lt;/li>
+&lt;/ul>
+&lt;h2 id="实习信息">实习信息&lt;/h2>
+&lt;ul>
+&lt;li>工作地点：&lt;strong>深圳（百度国际大厦）&lt;/strong>&lt;/li>
+&lt;li>工作时间：每周不低于3天，实习期不少于3个月，欢迎长期实习&lt;/li>
+&lt;li>申请时间：全年接收申请，也可提前申请暑期实习&lt;/li>
+&lt;li>联系方式: 请将简历发送至 &lt;strong>wangkun28 at baidu dot com&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>实习待遇高于平均水平，表现优秀的同学有机会转正或 PhD 申请推荐。对实习有任何疑问可通过邮件联系。邮件中请注明预期&lt;strong>实习开始时间&lt;/strong>和&lt;strong>实习时间跨度&lt;/strong>。&lt;/p></description></item></channel></rss>

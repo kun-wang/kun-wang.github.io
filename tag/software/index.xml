@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>software | Quark</title><link>https://kunwang.info/tag/software/</link><atom:link href="https://kunwang.info/tag/software/index.xml" rel="self" type="application/rss+xml"/><description>software</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate><image><url>https://kunwang.info/media/icon_hua80fed0d19161674393c832b4a1bafa2_7228_512x512_fill_lanczos_center_3.png</url><title>software</title><link>https://kunwang.info/tag/software/</link></image><item><title>Turing Machine Simulator</title><link>https://kunwang.info/post/2020-05-06-turing-machine-simulator/</link><pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate><guid>https://kunwang.info/post/2020-05-06-turing-machine-simulator/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>I developed a Turing machine simulator when I was a teaching assistant for the course &amp;ldquo;Introduction to Models of Computation&amp;rdquo;.
+You can find the project in &lt;a href="https://github.com/kun-wang/turing-machine-simulator" target="_blank" rel="noopener">GitHub&lt;/a>.
+It is based on a nice Java Turing machine simulator from &lt;a href="http://introcs.cs.princeton.edu/java/74turing/" target="_blank" rel="noopener">http://introcs.cs.princeton.edu/java/74turing/&lt;/a> with necessary
+updates. Feel free to fork, modify it.&lt;/p>
+&lt;p>The syntax of Turing machine is totally from the book of
+&amp;ldquo;&lt;em>Introduction to Models of Computation&lt;/em>&amp;rdquo; by professor Fangmin Song, which you can buy from &lt;a href="http://www.amazon.cn/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E7%94%9F%E7%B3%BB%E5%88%97%E6%95%99%E6%9D%90-%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%BC%95-%E5%AE%8B%E6%96%B9%E6%95%8F/dp/B008N6TA4U/ref=sr_1_1?ie=UTF8&amp;amp;qid=1421406550&amp;amp;sr=8-1&amp;amp;keywords=%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%BC%95" target="_blank" rel="noopener">Amazon&lt;/a>.&lt;/p>
+&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;code>bin&lt;/code>: Contains the compiled .class files. The &amp;ldquo;images&amp;rdquo; sub-directory is very important as it stores the required images for the simulator. In the next update, I will try to move it out of the &amp;ldquo;bin&amp;rdquo; directory.&lt;/p>
+&lt;p>&lt;code>files&lt;/code>: Contains the program description for specific operations. Examples include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Adder.tur&lt;/strong>: a program for adding two non-negative integers.&lt;/li>
+&lt;li>&lt;strong>copyString.tur&lt;/strong>: a program for copy a string of &lt;em>11&amp;hellip;11&lt;/em>s.&lt;/li>
+&lt;/ul>
+&lt;p>In these two files, I gave a detail description of the requirements for writing a program that can be accepted by the simulator.&lt;/p>
+&lt;p>&lt;code>src&lt;/code>: Source files of the simulator.&lt;/p>
+&lt;p>&lt;em>All of the above three directories are required for running the simulator.&lt;/em>&lt;/p>
+&lt;p>&lt;code>introduction.pptx&lt;/code>: Actually, the Turing machine simulator is a project for the third assignment of the course &lt;strong>Software Architecture&lt;/strong>. &lt;code>introduction.pptx&lt;/code> is my presentation on the course, which introduces basic ideas of the project, and the design patterns that have been applied.&lt;/p>
+&lt;p>&lt;code>TMSimulator.7z&lt;/code>: The packed runnable jar, with necessary config files.&lt;/p>
+&lt;h2 id="how-to-use">How to Use&lt;/h2>
+&lt;p>There are two different ways to setup the simulator.&lt;/p>
+&lt;h3 id="method-1-running-the-jar-file">Method 1: Running the jar file&lt;/h3>
+&lt;ol>
+&lt;li>Download the repository.&lt;/li>
+&lt;li>Unpack &lt;code>TMSimulator.7z&lt;/code>.&lt;/li>
+&lt;li>Click the &lt;code>run.bat&lt;/code> batch file.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Warnning!&lt;/strong> The &lt;code>files&lt;/code> and &lt;code>TMSimulator.jar&lt;/code> must be in the same directory with &lt;code>run.bat&lt;/code>.&lt;/p>
+&lt;h3 id="method-2-importing-the-project-into-eclipse">Method 2: Importing the project into eclipse&lt;/h3>
+&lt;ol>
+&lt;li>Download the repository.&lt;/li>
+&lt;li>Import into eclipse.&lt;/li>
+&lt;li>Run it!&lt;/li>
+&lt;/ol>
+&lt;h2 id="known-problems">Known problems&lt;/h2>
+&lt;h3 id="problem-1">Problem 1&lt;/h3>
+&lt;p>&lt;strong>Problem Description:&lt;/strong> When exporting the project as a runnable jar (TMSimulator.jar is exported in this way), images cannot be load, as the jar cannot find the images.&lt;br>
+&lt;strong>Current Solution:&lt;/strong> This problem happens because the exporting system hasn&amp;rsquo;t add the necessary files in &lt;code>bin/images&lt;/code> into the jar file. There are two solutions:&lt;/p>
+&lt;ol>
+&lt;li>Modify the code to add the files.&lt;/li>
+&lt;li>Add the &lt;code>images&lt;/code> directory into the jar file manually.&lt;/li>
+&lt;/ol>
+&lt;p>Due to my laziness, I take the latter one. It deserves better solution.&lt;/p>
+&lt;h3 id="problem-2">Problem 2&lt;/h3>
+&lt;p>&lt;strong>Problem Description:&lt;/strong> The input and output have been restricted into binary values, which are required by the simulator yet are not that human friendly.&lt;br>
+&lt;strong>Possible Solution:&lt;/strong> One encode module to translate the input decimal integers into corresponding bianry values, then feeding them into the simulator. One decode module to translate the output bianry value into corresponding decimal integer, then displaying out.&lt;/p>
+&lt;h2 id="more-on-the-simulator">More on the Simulator&lt;/h2>
+&lt;p>If you have any ideas on the project, please feel free to let me know. You can try following ways to keep us in touch.&lt;/p>
+&lt;ol>
+&lt;li>Comment on this post. This is highly recommended.&lt;/li>
+&lt;li>Fork the project, and push the new version to me.&lt;/li>
+&lt;li>Email me.&lt;/li>
+&lt;/ol></description></item></channel></rss>

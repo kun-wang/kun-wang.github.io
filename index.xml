@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Quark</title><link>https://kunwang.info/</link><atom:link href="https://kunwang.info/index.xml" rel="self" type="application/rss+xml"/><description>Quark</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 05 Nov 2022 00:00:00 +0000</lastBuildDate><image><url>https://kunwang.info/media/icon_hua80fed0d19161674393c832b4a1bafa2_7228_512x512_fill_lanczos_center_3.png</url><title>Quark</title><link>https://kunwang.info/</link></image><item><title>量子噪声处理实习生招聘</title><link>https://kunwang.info/post/2022-11-05-quantum-intern/</link><pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate><guid>https://kunwang.info/post/2022-11-05-quantum-intern/</guid><description>&lt;h2 id="研究所简介">研究所简介&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://quantum.baidu.com/" target="_blank" rel="noopener">百度量子计算研究所&lt;/a>成立于 2018 年 3 月。其使命是五年内建成世界一流量子人工智能研究所，并不断将量子技术整合融入百度核心业务中。研究所聚焦 QIAN 战略计划，打造量子软硬件一体化解决方案。QIAN 分别代表着百度在量子（Quantum）、基础设施（Infrastructure）、应用（Application）和网络生态（Network）等四个方面的全新战略布局。研究所所长为&lt;a href="https://baike.baidu.com/item/%E6%AE%B5%E6%B6%A6%E5%B0%A7" target="_blank" rel="noopener">段润尧&lt;/a>教授，负责百度量子计算战略的制定与实施。本科和博士均就读于清华大学计算机系，师从应明生教授。悉尼科技大学终身教授、澳大利亚研究理事会（ARC）Future Fellow。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2020年9月15日，在“百度世界2020”大会上段润尧发布&lt;a href="https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E9%87%8F%E5%AD%90%E5%B9%B3%E5%8F%B0" target="_blank" rel="noopener">百度量子平台&lt;/a>全景图。2021年7月10日，在“WAIC2021世界人工智能大会”上，百度量子平台全新升级，提供从应用到真机一站式云服务。百度量子平台扮演量子时代操作系统的角色，降低普通用户学习量子软硬件专业知识的成本，使非量子专业用户也能实现量子编程、量子机器学习等相关内容。百度量子平台努力为不同领域的用户赋能，力争实现“人人皆可量子”的美好愿景。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2021年12月28日，百度举办“Create·AI开发者大会”。在主论坛上，百度 CTO 王海峰正式发布百度量子平台2.0，这是国内首个提供从应用到量子处理器一站式服务的量子计算云平台。随后在前沿探索论坛上，段润尧详细介绍了百度量子平台2.0的各项领先技术，并围绕百度量子平台构建开放、可持续的百度量子生态，为量子计算领域的发展和繁荣作出贡献。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2022年8月25日，在&lt;a href="https://baike.baidu.com/item/%E9%87%8F%E5%AD%90%E5%BC%80%E5%8F%91%E8%80%85%E5%A4%A7%E4%BC%9A" target="_blank" rel="noopener">Quantum Create 2022·量子开发者大会&lt;/a>上，百度正式发布基于百度量子平台研发的产业级超导量子计算机“乾始”，及全球首个全平台量子软硬一体化解决方案“量羲”，并对外提供了包括手机端、电脑端、云开发等在内的全平台使用方式。只需下载“量易伏”APP，用户就可以体验量子计算，量子算力“触手可及”。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>百度在国家工业信息安全发展研究中心、工信部电子知识产权中心评比的量子计算全球高价值专利及创新驱动力排名中位列国内第一，国际第三。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="工作职责">工作职责&lt;/h2>
+&lt;p>您将和研究所的王琨研究员、工程师们一起推进量子噪声处理工具集 &lt;a href="https://quantum-hub.baidu.com/qep/tutorial-overvie" target="_blank" rel="noopener">QEP&lt;/a> 的研发工作。该工具集旨在从软件层面处理近期量子设备中广泛存在的量子噪声。实习可选择的方向包括但不限于：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>评估近期量子设备的性能&lt;/strong>并衡量其可扩展性（关键字：Randomized Benchmarking, Quantum Estimation, Quantum Verification）；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>刻画近期量子设备的量子噪声&lt;/strong>，精确标定量子态和量子门信息（关键字：Quantum Characterization, Quantum Tomography）；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>提升量子计算机的计算结果精度&lt;/strong>，降低甚至是消除量子门和量子测量噪声，扩展量子设备的计算能力（关键字：Quantum Error Mitigation, Quantum Error Correction）。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>诚挚欢迎热爱量子计算、学习动手能力强的有志之士申请。通过本实习项目中您将收获：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>量子计算领域知识与大厂实习经验，接触最前沿量子计算研究和项目；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>得到科研、工程等方面的指导，建立良好的研发习惯，积累多学科专业知识；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>个人能力得到挖掘和提升，个人价值得到发挥和认可。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="职位要求">职位要求&lt;/h2>
+&lt;ul>
+&lt;li>计算机/数学/物理或相关专业的研究生或者本科生&lt;/li>
+&lt;li>有面向对象编程知识基础，有项目开发经验的申请人优先&lt;/li>
+&lt;li>有线性代数和概率论基础，有量子计算基础的申请人优先。建议学习 Nielsen and Chuang 的《Quantum Computation and Quantum Information》，重点关注第二章、第八章和第九章。&lt;/li>
+&lt;/ul>
+&lt;h2 id="实习信息">实习信息&lt;/h2>
+&lt;ul>
+&lt;li>工作地点：&lt;strong>深圳（百度国际大厦）&lt;/strong>&lt;/li>
+&lt;li>工作时间：每周不低于3天，实习期不少于3个月，欢迎长期实习&lt;/li>
+&lt;li>申请时间：全年接收申请，也可提前申请暑期实习&lt;/li>
+&lt;li>联系方式: 请将简历发送至 &lt;strong>wangkun28 at baidu dot com&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>实习待遇高于平均水平，表现优秀的同学有机会转正或 PhD 申请推荐。对实习有任何疑问可通过邮件联系。邮件中请注明预期&lt;strong>实习开始时间&lt;/strong>和&lt;strong>实习时间跨度&lt;/strong>。&lt;/p></description></item><item><title>Dense Coding with Locality Restriction on Decoders: Quantum Encoders versus Superquantum Encoders</title><link>https://kunwang.info/publication/hayashi-2022-dense/</link><pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/hayashi-2022-dense/</guid><description>&lt;h2 id="brief-summary">Brief Summary&lt;/h2>
+&lt;p>Dense coding is one of the earliest and most prominent quantum protocols that reveal the power of quantum entanglement in communication. Although it has been intensively studied, it has typically been restricted to scenarios where the receiver can perform global measurements to decode information, which is experimentally challenging. Thus, it is natural to impose locality conditions on the decoders from a practical perspective.&lt;/p>
+&lt;p>In this work, we explore the practicality of dense coding by elaborating 21 classes of dense coding capacities with different encoder-decoder pairs, where the encoders are constrained by the resource theory of asymmetry and the decoders are constrained by various locality conditions. Our contributions are to 1) show that all these capacities are equal and derive a single-letter capacity formula; 2) prove that all these capacities satisfy the desirable strong converse property; and 3) establish an equivalence among three different quantities of a bipartite quantum state—the operationally defined dense coding capacity, the mathematically defined regularized asymmetry of assistance, and the quantum entropy of the twirled quantum state—thus providing the regularized asymmetry of the assistance measure an operational meaning.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="png" srcset="
+/publication/hayashi-2022-dense/protocol_hu7b23afec79b7bd0435f0357eae919b05_44403_a52d5663ca5d195f364c14f22924c9e9.webp 400w,
+/publication/hayashi-2022-dense/protocol_hu7b23afec79b7bd0435f0357eae919b05_44403_45c0852036f966e2b8029c1baf85ae41.webp 760w,
+/publication/hayashi-2022-dense/protocol_hu7b23afec79b7bd0435f0357eae919b05_44403_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://kunwang.info/publication/hayashi-2022-dense/protocol_hu7b23afec79b7bd0435f0357eae919b05_44403_a52d5663ca5d195f364c14f22924c9e9.webp"
+width="760"
+height="268"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Our results significantly push forward the research of practical dense coding in both the one-shot and asymptotic regimes within different resource theories. These results deepen our understanding of quantum entanglement and dense coding, and, more generally, the classical and quantum communication via quantum resources.&lt;/p></description></item><item><title>Experimental optimal verification of three-dimensional entanglement on a silicon chip</title><link>https://kunwang.info/publication/xia-2022-experimental/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/xia-2022-experimental/</guid><description/></item><item><title>Detecting and Eliminating Quantum Noise of Quantum Measurements</title><link>https://kunwang.info/publication/tang-2022-detecting/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/tang-2022-detecting/</guid><description/></item><item><title>Detecting and quantifying entanglement on near-term quantum devices</title><link>https://kunwang.info/publication/wang-2022-detecting/</link><pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2022-detecting/</guid><description/></item><item><title>Physical Implementability of Linear Maps and Its Application in Error Mitigation</title><link>https://kunwang.info/publication/jiang-2021-physical/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/jiang-2021-physical/</guid><description/></item><item><title>Mitigating Quantum Errors via Truncated Neumann Series</title><link>https://kunwang.info/publication/wang-2021-mitigating/</link><pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2021-mitigating/</guid><description/></item><item><title>Measurement Error Mitigation via Truncated Neumann Series</title><link>https://kunwang.info/publication/wang-2021-measurement/</link><pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2021-measurement/</guid><description/></item><item><title>Finite Block Length Analysis on Quantum Coherence Distillation and Incoherent Randomness Extraction</title><link>https://kunwang.info/publication/hayashi-2021-finite/</link><pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/hayashi-2021-finite/</guid><description/></item><item><title>Permutation Enhances Classical Communication Assisted by Entangled States</title><link>https://kunwang.info/publication/wang-2021-permutation/</link><pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2021-permutation/</guid><description/></item><item><title>Towards the standardization of quantum state verification using optimal strategies</title><link>https://kunwang.info/publication/jiang-2020-towards/</link><pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/jiang-2020-towards/</guid><description/></item><item><title>Quantification of Unextendible Entanglement and Its Applications in Entanglement Distillation</title><link>https://kunwang.info/publication/wang-2020-quantification/</link><pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2020-quantification/</guid><description/></item><item><title>How to Make Infinite to be Finite</title><link>https://kunwang.info/post/2020-05-08-from-infinite-to-finite/2020-05-08-from-infinite-to-finite/</link><pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate><guid>https://kunwang.info/post/2020-05-08-from-infinite-to-finite/2020-05-08-from-infinite-to-finite/</guid><description>&lt;p>As I read the wiki entry on &lt;a href="https://en.wikipedia.org/wiki/Transfinite_number" target="_blank" rel="noopener">Transfinite number&lt;/a>, some problems come to my mind.&lt;/p>
+&lt;h2 id="take-finite-out-of-infinite">Take Finite out of Infinite&lt;/h2>
+&lt;p>&lt;strong>what is left after I take a finite subset out of an infinite set?&lt;/strong>
+Consider the &lt;a href="https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel" target="_blank" rel="noopener">Hilbert&amp;rsquo;s paradox of the Grand Hotel&lt;/a>. If room 1 is out of services, then we can move the guest currently in room 1 to room 2, the guest currently in room 2 to room 3, and so on, moving every guest from his current room $n$ to room $n+1$. After this, room 1 is not needed. By repeating this procedure, it is possible to cancel any finite number of rooms which are out of services. The answer to the problem is, when we take a finite subset out of an infinite set, the remaining set is still infinite.&lt;/p>
+&lt;h2 id="take-infinite-out-of-infinite">Take Infinite out of Infinite&lt;/h2>
+&lt;p>&lt;strong>what is left after I take an infinite subset out of an infinite set?&lt;/strong>&lt;/p>
+&lt;h3 id="case-1">Case 1&lt;/h3>
+&lt;p>Take the &lt;a href="https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel" target="_blank" rel="noopener">Hilbert&amp;rsquo;s paradox of the Grand Hotel&lt;/a> as an example. If all rooms of odd number are out of services, then we can first assume only room 1 is not availabe, the guest currently in room 1 is moved to room 2, guest in room 2 to room 3, and so on, moving every guest from his current room $n$ to room $n+1$. After this, room 1 is not needed. By repeating this procedure, it is possible to cancel all odd rooms. In this
+case, the answer to the problem is, when we take an infinite subset (set of odd numbers) out of an infinite set, the remaining set is still infinite.&lt;/p>
+&lt;h3 id="case-2">Case 2&lt;/h3>
+&lt;p>Take the set of natural numbers as example. We simply make the infinite subset $A$ be
+$ A = {x \in N | x \neq 1 }$.
+It&amp;rsquo;s easy to see that A is infinite, and the complement set of $A$ over $N$ is of size 1. In this case, the answer to the problem is, when we take an infinite subset (set of $A$) out of an infinite set, the remaining set is finite.&lt;/p>
+&lt;p>Here is what confused me most. The cardinality of &lt;em>set of odd numbers&lt;/em> and set $A$ are both &lt;em>Aleph-null&lt;/em>, why their complements over $N$ are different? Currently, I make myself convinced that the problem occurs due to the ambiguity of &lt;em>complement over N&lt;/em>.&lt;/p></description></item><item><title>Turing Machine Simulator</title><link>https://kunwang.info/post/2020-05-06-turing-machine-simulator/</link><pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate><guid>https://kunwang.info/post/2020-05-06-turing-machine-simulator/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>I developed a Turing machine simulator when I was a teaching assistant for the course &amp;ldquo;Introduction to Models of Computation&amp;rdquo;.
+You can find the project in &lt;a href="https://github.com/kun-wang/turing-machine-simulator" target="_blank" rel="noopener">GitHub&lt;/a>.
+It is based on a nice Java Turing machine simulator from &lt;a href="http://introcs.cs.princeton.edu/java/74turing/" target="_blank" rel="noopener">http://introcs.cs.princeton.edu/java/74turing/&lt;/a> with necessary
+updates. Feel free to fork, modify it.&lt;/p>
+&lt;p>The syntax of Turing machine is totally from the book of
+&amp;ldquo;&lt;em>Introduction to Models of Computation&lt;/em>&amp;rdquo; by professor Fangmin Song, which you can buy from &lt;a href="http://www.amazon.cn/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E7%94%9F%E7%B3%BB%E5%88%97%E6%95%99%E6%9D%90-%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%BC%95-%E5%AE%8B%E6%96%B9%E6%95%8F/dp/B008N6TA4U/ref=sr_1_1?ie=UTF8&amp;amp;qid=1421406550&amp;amp;sr=8-1&amp;amp;keywords=%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%BC%95" target="_blank" rel="noopener">Amazon&lt;/a>.&lt;/p>
+&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;code>bin&lt;/code>: Contains the compiled .class files. The &amp;ldquo;images&amp;rdquo; sub-directory is very important as it stores the required images for the simulator. In the next update, I will try to move it out of the &amp;ldquo;bin&amp;rdquo; directory.&lt;/p>
+&lt;p>&lt;code>files&lt;/code>: Contains the program description for specific operations. Examples include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Adder.tur&lt;/strong>: a program for adding two non-negative integers.&lt;/li>
+&lt;li>&lt;strong>copyString.tur&lt;/strong>: a program for copy a string of &lt;em>11&amp;hellip;11&lt;/em>s.&lt;/li>
+&lt;/ul>
+&lt;p>In these two files, I gave a detail description of the requirements for writing a program that can be accepted by the simulator.&lt;/p>
+&lt;p>&lt;code>src&lt;/code>: Source files of the simulator.&lt;/p>
+&lt;p>&lt;em>All of the above three directories are required for running the simulator.&lt;/em>&lt;/p>
+&lt;p>&lt;code>introduction.pptx&lt;/code>: Actually, the Turing machine simulator is a project for the third assignment of the course &lt;strong>Software Architecture&lt;/strong>. &lt;code>introduction.pptx&lt;/code> is my presentation on the course, which introduces basic ideas of the project, and the design patterns that have been applied.&lt;/p>
+&lt;p>&lt;code>TMSimulator.7z&lt;/code>: The packed runnable jar, with necessary config files.&lt;/p>
+&lt;h2 id="how-to-use">How to Use&lt;/h2>
+&lt;p>There are two different ways to setup the simulator.&lt;/p>
+&lt;h3 id="method-1-running-the-jar-file">Method 1: Running the jar file&lt;/h3>
+&lt;ol>
+&lt;li>Download the repository.&lt;/li>
+&lt;li>Unpack &lt;code>TMSimulator.7z&lt;/code>.&lt;/li>
+&lt;li>Click the &lt;code>run.bat&lt;/code> batch file.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Warnning!&lt;/strong> The &lt;code>files&lt;/code> and &lt;code>TMSimulator.jar&lt;/code> must be in the same directory with &lt;code>run.bat&lt;/code>.&lt;/p>
+&lt;h3 id="method-2-importing-the-project-into-eclipse">Method 2: Importing the project into eclipse&lt;/h3>
+&lt;ol>
+&lt;li>Download the repository.&lt;/li>
+&lt;li>Import into eclipse.&lt;/li>
+&lt;li>Run it!&lt;/li>
+&lt;/ol>
+&lt;h2 id="known-problems">Known problems&lt;/h2>
+&lt;h3 id="problem-1">Problem 1&lt;/h3>
+&lt;p>&lt;strong>Problem Description:&lt;/strong> When exporting the project as a runnable jar (TMSimulator.jar is exported in this way), images cannot be load, as the jar cannot find the images.&lt;br>
+&lt;strong>Current Solution:&lt;/strong> This problem happens because the exporting system hasn&amp;rsquo;t add the necessary files in &lt;code>bin/images&lt;/code> into the jar file. There are two solutions:&lt;/p>
+&lt;ol>
+&lt;li>Modify the code to add the files.&lt;/li>
+&lt;li>Add the &lt;code>images&lt;/code> directory into the jar file manually.&lt;/li>
+&lt;/ol>
+&lt;p>Due to my laziness, I take the latter one. It deserves better solution.&lt;/p>
+&lt;h3 id="problem-2">Problem 2&lt;/h3>
+&lt;p>&lt;strong>Problem Description:&lt;/strong> The input and output have been restricted into binary values, which are required by the simulator yet are not that human friendly.&lt;br>
+&lt;strong>Possible Solution:&lt;/strong> One encode module to translate the input decimal integers into corresponding bianry values, then feeding them into the simulator. One decode module to translate the output bianry value into corresponding decimal integer, then displaying out.&lt;/p>
+&lt;h2 id="more-on-the-simulator">More on the Simulator&lt;/h2>
+&lt;p>If you have any ideas on the project, please feel free to let me know. You can try following ways to keep us in touch.&lt;/p>
+&lt;ol>
+&lt;li>Comment on this post. This is highly recommended.&lt;/li>
+&lt;li>Fork the project, and push the new version to me.&lt;/li>
+&lt;li>Email me.&lt;/li>
+&lt;/ol></description></item><item><title>Application of the resource theory of channels to communication scenarios</title><link>https://kunwang.info/publication/takagi-2020-application/</link><pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/takagi-2020-application/</guid><description/></item><item><title>Entanglement Detection via Direct-Sum Majorization Uncertainty Relations</title><link>https://kunwang.info/publication/wang-2020-entanglement/</link><pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2020-entanglement/</guid><description/></item><item><title>Quantifying the unextendibility of entanglement</title><link>https://kunwang.info/publication/wang-2019-quantifying/</link><pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2019-quantifying/</guid><description/></item><item><title>Optimal verification of two-qubit pure states</title><link>https://kunwang.info/publication/wang-2019-optimal/</link><pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2019-optimal/</guid><description/></item><item><title>Uncertainty relations in the presence of quantum memory for mutually unbiased measurements</title><link>https://kunwang.info/publication/wang-2018-uncertainty/</link><pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2018-uncertainty/</guid><description/></item><item><title>One-dimensional lackadaisical quantum walks</title><link>https://kunwang.info/publication/wang-2017-one/</link><pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2017-one/</guid><description/></item><item><title>Grover walks on a line with absorbing boundaries</title><link>https://kunwang.info/publication/wang-2016-grover/</link><pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wang-2016-grover/</guid><description/></item><item><title>A novel quantum random number generation algorithm used by smartphone camera</title><link>https://kunwang.info/publication/wu-2015-novel/</link><pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate><guid>https://kunwang.info/publication/wu-2015-novel/</guid><description/></item><item><title/><link>https://kunwang.info/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kunwang.info/admin/config.yml</guid><description/></item><item><title>News</title><link>https://kunwang.info/news/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kunwang.info/news/</guid><description>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>2022.09&lt;/strong>&amp;mdash;Our work &lt;em>Dense Coding with Locality Restriction on Decoders: Quantum Encoders versus Superquantum Encoders&lt;/em> (with Masahito Hayashi) was published in &lt;a href="https://link.aps.org/doi/10.1103/PRXQuantum.3.030346" target="_blank" rel="noopener">PRX Quantum&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2022.09&lt;/strong>&amp;mdash;Our work &lt;em>Experimental optimal verification of three-dimensional entanglement on a silicon chip&lt;/em> (with Lijun Xia, Liangliang Lu, Xinhe Jiang, Shining Zhu, and Xiaosong Ma) was published in &lt;a href="https://iopscience.iop.org/article/10.1088/1367-2630/ac8a67/meta" target="_blank" rel="noopener">New Journal of Physics&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2022.06&lt;/strong>&amp;mdash;Our work &lt;em>Detecting and Eliminating Quantum Noise of Quantum Measurements&lt;/em> (with Shuanghong Tang and Congcong Zheng) was submitted to &lt;a href="https://arxiv.org/abs/2206.13743" target="_blank" rel="noopener">arXiv&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2022.05&lt;/strong>&amp;mdash;Our work &lt;em>Detecting and quantifying entanglement on near-term quantum devices&lt;/em> (with Zhixin Song, Xuanqiang Zhao, Zihe Wang, and Xin Wang) was published in &lt;a href="https://www.nature.com/articles/s41534-022-00556-w" target="_blank" rel="noopener">npj Quantum Information&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2021.12&lt;/strong>&amp;mdash;Our work &lt;em>Physical Implementability of Linear Maps and Its Application in Error Mitigation&lt;/em> (with Jiaqing Jiang and Xin Wang) was published in &lt;a href="https://quantum-journal.org/papers/q-2021-12-07-600/" target="_blank" rel="noopener">Quantum&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2021.11&lt;/strong>&amp;mdash;Our work *Mitigating Quantum Errors via Truncated Neumann Series) was submitted to &lt;a href="https://arxiv.org/abs/2111.00691" target="_blank" rel="noopener">arXiv&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2021.05&lt;/strong>&amp;mdash;Our work &lt;em>Measurement Error Mitigation via Truncated Neumann Series&lt;/em> (with Yu-Ao Chen and Xin Wang) was accepted as a talk in &lt;a href="https://tqc2021.lu.lv/" target="_blank" rel="noopener">TQC 2021&lt;/a> &lt;a href="https://scirate.com/arxiv/2103.13856" target="_blank" rel="noopener">arXiv&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2021.03&lt;/strong>&amp;mdash;Our work &lt;em>Finite Block Length Analysis on Quantum Coherence Distillation and Incoherent Randomness Extraction&lt;/em> (with Masahito Hayashi and Kun Fang) was published in &lt;a href="https://ieeexplore.ieee.org/abstract/document/9370124" target="_blank" rel="noopener">IEEE Transactions on Information Theory&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2021.02&lt;/strong>&amp;mdash;Our work &lt;em>Permutation Enhances Classical Communication Assisted by Entangled States&lt;/em> (with Masahito Hayashi) was published in &lt;a href="https://ieeexplore.ieee.org/abstract/document/9358235" target="_blank" rel="noopener">IEEE Transactions on Information Theory&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2020.10&lt;/strong>&amp;mdash;Our work &lt;em>Towards the standardization of quantum state verification using optimal strategies&lt;/em> (with Xinhe Jiang, Kaiyi Qian, Zhaozhong Chen, Zhiyu Chen, Liangliang Lu, Lijun Xia, Fangmin Song, Shining Zhu, and Xiaosong Ma) was published in &lt;a href="https://www.nature.com/articles/s41534-020-00317-7" target="_blank" rel="noopener">npj Quantum Information&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2020.04&lt;/strong>Our work &lt;em>Quantification of Unextendible Entanglement and Its Applications in Entanglement Distillation&lt;/em> (with Xin Wang and Mark Wilde) was accepted as a talk in &lt;a href="https://2020.ieee-isit.org/Papers.asp" target="_blank" rel="noopener">2020 IEEE International Symposium on Information Theory (ISIT 2020)&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2020.03&lt;/strong>&amp;mdash;Our work &lt;em>Application of the Resource Theory of Channels to Communication Scenarios&lt;/em> (with Ryuji Takagi and Masahito Hayashi) was published in &lt;a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.120502" target="_blank" rel="noopener">Physical Review Letters&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2020.03&lt;/strong>&amp;mdash;Our work &lt;em>Permutation Enhances Classical Communication Assisted by Entangled States&lt;/em> (with Masahito Hayashi) was accepted as a talk in &lt;a href="https://2020.ieee-isit.org/Papers.asp" target="_blank" rel="noopener">2020 IEEE International Symposium on Information Theory (ISIT 2020)&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2019.09&lt;/strong>&amp;mdash;Our work &lt;em>Optimal verification of two-qubit pure states&lt;/em> (with Masahito Hayashi) was published in &lt;a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.032315" target="_blank" rel="noopener">Physical Review A&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
