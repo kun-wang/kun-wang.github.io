@@ -7,6 +7,4 @@ resources/
 public/
 jsconfig.json
 node_modules/
-go.sum
-go.mod
 .hugo_build.lock
