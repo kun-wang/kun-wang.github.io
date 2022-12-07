@@ -1,8 +1,10 @@
 // Adjust the article page's width
 // https://isabella-b.com/blog/hugo-academic-customization/#adjusting-post-font-size--page-width
-// .article-container {
-//     max-width: 1024;
-//     padding: 0 20px 0 20px;
-//     margin: 0 auto 0 auto;
-//     // font-size: 20px;
-//   }
+// https://discourse.gohugo.io/t/how-can-i-increase-the-width-of-huco-academic-content/14952
+.article-container {
+    max-width: 960px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto 0 auto;
+    // font-size: 20px;
+  }
+  

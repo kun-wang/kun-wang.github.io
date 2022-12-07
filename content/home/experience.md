@@ -39,8 +39,8 @@ experience:
     company_url: 'https://siqse.sustech.edu.cn/'
     # company_logo: org-x
     location: Shenzhen, China
-    date_start: '2020-07-31'
-    date_end: '2019-06-20'
+    date_start: '2019-06-20'
+    date_end: '2020-07-31'
     description: Research on quantum information theory and quantum verification.
 
 design:

@@ -57,9 +57,12 @@ social:
   #   label: Follow me on Twitter
   #   display: # Determine if this icon is displayed in the navigator bar 
   #     header: false
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=9pDyyUAAAAAJ&hl=en
+  - icon: arxiv # icon is from https://jpswalsh.github.io/academicons/. the `icon_pack` must be `ai`
+    icon_pack: ai
+    link: http://arxiv.org/a/wang_k_6
   - icon: github
     icon_pack: fab
     link: https://github.com/kun-wang

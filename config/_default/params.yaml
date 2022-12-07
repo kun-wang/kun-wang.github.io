@@ -7,8 +7,8 @@
 # https://wowchemy.com/docs/getting-started/customization/
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: KleinBlue
+  theme_night: KleinBlue
   font: minimal      # Optional: Minimal (modern), Classic (original Academic v1 style)
   font_size: xl   # Optional: xs, s, m, l, xl.
 
@@ -33,7 +33,7 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
+    align: 1  # Change the position of the menu. 1 for left, 2 for center, and 3 for right.
     show_logo: true
     show_language: false
     show_day_night: true
@@ -65,7 +65,7 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
