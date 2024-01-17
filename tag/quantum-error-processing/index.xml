@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>quantum error processing | QUANTUM</title><link>https://kunwang.info/tag/quantum-error-processing/</link><atom:link href="https://kunwang.info/tag/quantum-error-processing/index.xml" rel="self" type="application/rss+xml"/><description>quantum error processing</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 May 2022 00:00:00 +0000</lastBuildDate><image><url>https://kunwang.info/media/icon_hua80fed0d19161674393c832b4a1bafa2_7228_512x512_fill_lanczos_center_3.png</url><title>quantum error processing</title><link>https://kunwang.info/tag/quantum-error-processing/</link></image><item><title>Quantum Error Processing Toolkit</title><link>https://kunwang.info/projects/qep/</link><pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate><guid>https://kunwang.info/projects/qep/</guid><description>&lt;p>I led the development of
+&lt;span style="color:#DB4437;">&lt;strong>the first and only open-source Quantum Error Processing (QEP) toolkit in China&lt;/strong>&lt;/span>.
+My proficiency in quantum computing has enabled me to identify critical needs and
+select the most suitable quantum solutions.
+Simultaneously, my expertise in computer science has empowered me to
+design robust and efficient data structures, algorithms, and software architectures,
+and uphold a well-structured software development life cycle,
+ensuring the timely delivery of these solutions with high quality.&lt;/p>
+&lt;p>QEP stands at the forefront as an innovative and pioneering open-source quantum error processing toolkit,
+representing a core component seamlessly integrated into the
+&lt;a href="https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E9%87%8F%E5%AD%90%E5%B9%B3%E5%8F%B0" target="_blank" rel="noopener">Baidu Quantum Platform&lt;/a>,
+which is a full-stack quantum software and hardware platform developed by Baidu.
+This toolkit serves a paramount purpose in characterizing and enhancing the performance of quantum computers
+by effectively addressing and mitigating the inherent quantum errors presented in these devices through
+sophisticated software solutions.
+QEP boasts a comprehensive suite of four powerful quantum error processing tools:
+quantum performance evaluation,
+quantum error characterization,
+quantum error mitigation, and
+quantum error correction.
+The versatile capabilities embedded in QEP empower our quantum hardware team to engage in a meticulous
+and rigorous process of characterizing and enhancing Baidu&amp;rsquo;s quantum processors. By leveraging QEP&amp;rsquo;s advanced tools,
+we can delve into the intricate details of quantum performance, understand the characteristics of errors,
+implement effective mitigation strategies, and deploy quantum error correction codes.
+This comprehensive approach accelerates closed-loop and end-to-end optimizations,
+thus playing an instrumental role in advancing the capabilities, robustness, and reliability of
+our quantum computing infrastructure.&lt;/p>
+&lt;p>QEP is officially released at &lt;a href="https://baike.baidu.com/item/%E9%87%8F%E5%AD%90%E5%BC%80%E5%8F%91%E8%80%85%E5%A4%A7%E4%BC%9A" target="_blank" rel="noopener">&amp;ldquo;Quantum Create 2022&amp;rdquo;&lt;/a>,
+a grand quantum developer conference held in Beijing.
+The release garnered widespread recognition from mainstream news media, including
+&lt;a href="https://analyticsdrift.com/baidu-unveils-its-first-superconducting-quantum-computer-qianshi/" target="_blank" rel="noopener">AnalyticDrift&lt;/a>,
+&lt;a href="https://en.pingwest.com/a/10696" target="_blank" rel="noopener">PingWest&lt;/a>,
+&lt;a href="https://www.toutiao.com/article/7137927453540237838" target="_blank" rel="noopener">Toutiao&lt;/a>,
+&lt;a href="https://mp.weixin.qq.com/s/6jfh_MMypbqHq3KlhYiTew" target="_blank" rel="noopener">QbitAI&lt;/a>, and many others.
+Establishing a robust foundation backed by &lt;strong>5&lt;/strong> research papers and over &lt;strong>50&lt;/strong> patent applications,
+the latest version, &lt;a href="https://pypi.org/project/qcompute-qep/" target="_blank" rel="noopener">QEP 1.1.0&lt;/a>,
+brings unparalleled versatility to quantum hardware access.
+This release significantly expands its support to diverse platforms from five leading companies,
+further solidifying its position at the forefront of quantum error processing toolkits.
+QEP&amp;rsquo;s modular design, founded on the software design philosophy
+of &amp;ldquo;high cohesion, loose coupling&amp;rdquo; for effective code organization and
+independent functionalities, features &lt;strong>32&lt;/strong> core modules. With a vast repository housing &lt;strong>26,000&lt;/strong>
+lines of open-source code, and an extensive library of &lt;strong>37&lt;/strong> bilingual tutorials,
+alongside comprehensive API documentation, QEP is designed to be user-friendly, allowing easy access and utilization of its capabilities.&lt;/p>
+&lt;p>The success of QEP is indebted to the invaluable contributions of numerous research interns and engineers.
+Through effective management and the implementation of a rotation mechanism,
+I established a system that facilitated the swift integration of research interns into the project,
+enabling them to make meaningful contributions. To date, &lt;strong>12&lt;/strong> research interns have seamlessly
+immersed themselves in the realm of quantum computing,
+acquiring expertise in both theoretical and practical aspects of quantum error processing.
+Their talents have played a pivotal role in driving innovative projects that push the boundaries of quantum technology.
+The sustained fascination these interns exhibit toward quantum computing stands as a testament to the passion and
+enthusiasm that I have ignited in these future researchers.
+This collaborative effort underscores the collaborative and dynamic nature of the quantum research environment
+that has been cultivated within the QEP project.&lt;/p>
+&lt;p>The technology landscape of QEP is illustrated as follows.
+For more detailed information about QEP, interested parties can
+explore the repository on &lt;a href="https://github.com/baidu/QCompute/tree/master/Extensions/QuantumErrorProcessing" target="_blank" rel="noopener">GitHub&lt;/a>
+or access the package on &lt;a href="https://pypi.org/project/qcompute-qep/" target="_blank" rel="noopener">PyPI&lt;/a>.
+These platforms offer in-depth insights into QEP&amp;rsquo;s features, functionalities, implementation guidelines, and user tutorials.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="png" srcset="
+/projects/qep/qep-architecture_hu8dff87efc9f81ec7063c32610e170de2_403985_a17b69bcafddc80527447580f7609970.webp 400w,
+/projects/qep/qep-architecture_hu8dff87efc9f81ec7063c32610e170de2_403985_c2776e48d283d545ec56c0b62abc7973.webp 760w,
+/projects/qep/qep-architecture_hu8dff87efc9f81ec7063c32610e170de2_403985_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://kunwang.info/projects/qep/qep-architecture_hu8dff87efc9f81ec7063c32610e170de2_403985_a17b69bcafddc80527447580f7609970.webp"
+width="760"
+height="451"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item></channel></rss>
