@@ -30,7 +30,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Ph.D. in Quantum Information Theory
+    - course: Ph.D. in Computer Science
       institution: Nanjing University
       year: 2019
     - course: Visiting Student Supported by CSC
@@ -74,8 +74,8 @@ email: 'nju.wangkun@gmail.com'
 highlight_name: true
 ---
 
-I was a Senior Researcher at the [Institute for Quantum Computing](http://quantum.baidu.com/), Baidu Research. 
-My research at Baidu Quantum focuses on characterizing, verifying, validating, 
+I was a Senior Researcher at the Institute for Quantum Computing, Baidu Research. 
+My research focuses on characterizing, verifying, validating, 
 mitigating, and correcting quantum errors inherent in quantum devices.
 
 Previously, I was a postdoc at the Shenzhen Institute for Quantum Science and Engineering (SIQSE), 
@@ -90,7 +90,9 @@ In 2018, I visited the Shenzhen Institute for Quantum Science and Engineering,
 supervised by Prof. [Masahito Hayashi](https://mhayashi.info/).
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
- 
+
+<!-- Different callout styles: https://docs.hugoblox.com/reference/markdown/#callouts -->
+<!-- Here we use the 'note' style. -->
 {{% callout note %}}
 I was a recipient of the Shenzhen Industrial Development and Innovation Talent Award (2023).
 {{% /callout %}}

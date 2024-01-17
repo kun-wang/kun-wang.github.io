@@ -7,10 +7,12 @@
 # https://wowchemy.com/docs/getting-started/customization/
 
 appearance:
-  theme_day: KleinBlue
-  theme_night: KleinBlue
-  font: minimal      # Optional: Minimal (modern), Classic (original Academic v1 style)
-  font_size: xl   # Optional: xs, s, m, l, xl.
+  theme_day: Ocean  # Ocean, Minimal, Strawberry
+  theme_night: Ocean
+  # Optional: Minimal (modern), Classic (original Academic v1 style), 
+  # Native: use device fonts for maximum performance, Mr Robot (futuristic), Rose (traditional serif)
+  font: Classic      
+  font_size: l   # Optional: xs, s, m, l, xl.
 
 # SEO
 
