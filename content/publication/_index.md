@@ -1,4 +1,7 @@
 ---
+# This yaml file serves to list all publications
+# https://bootstrap.hugoblox.com/content/archives/
+# https://docs.hugoblox.com/reference/page-features/#banner-image
 title: Publications
 cms_exclude: true
 
@@ -10,7 +13,7 @@ cms_exclude: true
 view: 4
 
 # Optional header image (relative to `static/media/` folder).
-header:
+banner:
   caption: ''
   image: ''
 ---

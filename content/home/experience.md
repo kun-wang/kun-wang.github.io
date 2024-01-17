@@ -28,7 +28,7 @@ experience:
     # company_logo: org-gc
     location: Shenzhen, China
     date_start: '2020-08-12'
-    date_end: ''
+    date_end: '2023-12-29'
     description: |2-
         Research on quantum error processing and 
         lead the development of [QEP](https://quantum-hub.baidu.com/qep/tutorial-overview) toolkit, 

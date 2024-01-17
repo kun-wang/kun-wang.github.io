@@ -1,7 +1,8 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: collection
+# https://bootstrap.hugoblox.com/blocks-v1/portfolio/
+widget: portfolio
 
 # This file represents a page section.
 headless: true
@@ -9,15 +10,16 @@ headless: true
 # Change 'active' to 'true' to show this section
 active: true
 # Order that this section appears on the page.
-weight: 40
+weight: 50
 
-title: Recent Publications
+title: Projects
 subtitle: ''
+
 content:
   # Filter on criteria
   filters:
     folders:
-      - publication
+      - projects
     tag: ''
     category: ''
     publication_type: ''
@@ -31,18 +33,9 @@ content:
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
-  # Control the "See all" link
-  # https://bootstrap.hugoblox.com/blocks-v1/collection/
-  archive: 
-    enable: true
-    text: SEE ALL PUBLICATIONS
-    link: publication/
+
 design:
   # Choose a view for the listings:
-  view: citation
+  view: Card
   columns: '2'
 ---
-
-<!-- {{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}} -->

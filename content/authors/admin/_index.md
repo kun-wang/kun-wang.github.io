@@ -74,7 +74,7 @@ email: 'nju.wangkun@gmail.com'
 highlight_name: true
 ---
 
-I am a Senior Researcher at the [Institute for Quantum Computing](http://quantum.baidu.com/), Baidu Research. 
+I was a Senior Researcher at the [Institute for Quantum Computing](http://quantum.baidu.com/), Baidu Research. 
 My research at Baidu Quantum focuses on characterizing, verifying, validating, 
 mitigating, and correcting quantum errors inherent in quantum devices.
 
@@ -92,5 +92,5 @@ supervised by Prof. [Masahito Hayashi](https://mhayashi.info/).
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
  
 {{% callout note %}}
-Talk is cheap. Show me the code. --- Linus Torvalds
+I was a recipient of the Shenzhen Industrial Development and Innovation Talent Award (2023).
 {{% /callout %}}

@@ -18,9 +18,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    # twitter: 'wowchemy'
+    org_name: 'Quantum'
+    description: 'Targeting at quantum.'
+    twitter: 'https://twitter.com/QuantumMan2018'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -100,16 +100,38 @@ features:
     zoom: 15
 
 # Extensions
-
 extensions:
   cms:
     branch: main
     local_backend: false
   academicons:
     enable: true
+  isotope:     # Enable if you use the Portfolio widget or Publication filter
+    enable: true
 
+# Citation style
+publications:
+  date_format: January 2006
+  citation_style: apa
+  
 # Security
 
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+icon:
+  pack:
+    ai: true
+
+# Configuration of project pages.
+projects:
+  post_view: 2
+  publication_view: 2
+  talk_view: 2
+
+
+#Advanced
+reading_time: true
+section_pager: false
+profile: false
+sharing: true

@@ -7,9 +7,9 @@ widget: collection
 headless: true
 
 # Change 'active' to 'true' to show this section
-active: false
+active: true
 # Order that this section appears on the page.
-weight: 80
+weight: 40
 
 title: Featured Publications
 subtitle: ''
