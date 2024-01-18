@@ -16,8 +16,8 @@ main:
   - name: Publications
     url: '#featured'
     weight: 40
-  - name: Projects
-    url: '#projects'
+  - name: Softwares
+    url: '#softwares'
     weight: 50
   - name: Posts
     url: '#posts'

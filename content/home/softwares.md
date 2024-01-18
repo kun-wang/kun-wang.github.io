@@ -12,18 +12,17 @@ active: true
 # Order that this section appears on the page.
 weight: 50
 
-title: Projects
+title: Softwares
 subtitle: ''
 
 content:
   # Filter on criteria
   filters:
     folders:
-      - projects
-    tag: ''
-    category: ''
-    publication_type: ''
-    author: ''
+      - softwares
+    tag: 'software'
+    category: 'softwares'
+    author: admin
     exclude_featured: false
     exclude_future: false
     exclude_past: false
